@@ -407,7 +407,7 @@ def start_communication(message):
 
 
 if __name__ == "__main__":
-    # Initialize OpenAI API   eg: "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" (This key is invalid)
+    # Initialize OpenAI API   
     openai.api_key = os.getenv("sk-xxx")
     index = 0
     # Defining Dialogue History
